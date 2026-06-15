@@ -1,0 +1,325 @@
+@charset "utf-8";
+@import url("webfonts/NotoSansTC_VariableFont_wght/stylesheet.css");
+.css {
+    font-family: "NotoSansTC VariableFont wght";
+}
+#test {
+}
+body {
+    padding-top: 94px;
+    margin: 0;
+    text-align: center;
+    font-family: "NotoSansTC VariableFont wght";
+}
+
+/* 2. 固定定位框架 */
+.mainheader {
+    position: fixed;
+    z-index: 999;
+}
+
+/* 3. 導覽列主體：白色背景、高度 94px、寬度 100% 填滿 */
+#top {
+    position: fixed;
+    height: 94px;
+    background-color: #FFFFFF;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+/* 4. 左側 Logo 圖片（Song Rise）*/
+#logo {
+    position: relative;
+    width: 151px;
+    height: 54px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(logo.png); /* 畫面的 Song Rise 標誌 */
+    background-repeat: no-repeat;
+    float: left;                     /* 靠左對齊 */
+}
+
+/* 5. 右側按鈕群組容器 */
+#buttom {
+    position: relative;
+    float: right;                    /* 靠右對齊 */
+    margin-top: 25px;
+    margin-right: 10px;
+    font-family: "NotoSansTC VariableFont wght";
+}
+
+/* 6. 右側三個文字按鈕的初始外觀（白底、圓角、黑字） */
+#buttom a {
+    display: inline-block;
+    background-color: #FFFFFF; 
+    color: #000000;              
+    padding: 10px 20px;       
+    margin: 5px;             
+    text-decoration: none;    
+    border-radius: 10px;      /* 讓按鈕四角變成圓弧狀 */
+    transition: background-color 0.3s; /* 平滑過渡動畫 */
+}
+
+/* 7. 滑鼠移上去（Hover）時的視覺效果（變成黑底白字） */
+#buttom a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}#footer {
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "NotoSansTC VariableFont wght";
+	clear: both;
+}#mainfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+}
+h1 {
+    font-family: "NotoSansTC VariableFont wght";
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}#one {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 1060px;
+    height: 400px;
+    margin-top: 20px;
+}
+.center {
+    margin: auto;
+    border-radius: 15px;
+	text-align: center;
+}
+#oneleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 520px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+}
+#oneleftleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    clear: none;
+    float: left;
+    border-radius: 15px;
+    background-image: url(one1.png);
+
+
+	margin-left: 
+;         margin-right: 20px;
+}
+#oneleftright {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: right;
+    clear: none;
+}
+#oneleftright {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+}
+#oneleftrightdown {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 190px;
+    background-image: url(onethree.png);
+    margin-top: 20px;
+	
+}
+.righttopfontsize {
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: right;
+    margin-top: px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+#oneleftrighttop {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 190px;
+    background-image: url(onetwo.png);
+    margin-bottom: 10px;
+}
+#oneright {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 520px;
+    height: 400px;
+    float: left;
+}
+#onerightleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: left;
+    background-image: url(onefour.png);
+}
+#onerightrght {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: right;
+    background-image: url(onefive.png);
+}
+#oneleftleftfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+#two {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 1060px;
+    height: 400px;
+    margin-top: 20px;
+}
+#twoleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 520px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+}
+#tworight {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 520px;
+    height: 400px;
+    float: left;
+}
+#twoleftleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: left;
+    background-image: url(twoone.png);
+}
+#twoleftright {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: right;
+    background-image: url(twotwo.png);
+}
+#tworightleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: left;
+    clear: both;
+    background-image: url(twothree.png);
+}
+#tworightright {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float: right;
+    background-image: url(twofour.png);
+}
+#oneleftrighttopfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    text-align: right;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-right: 10px;
+	
+}
+#oneleftrightdownfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#onerightleftfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+	margin-top: 10px;
+    margin-right: 10px;
+}
+#onerightrightfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+	margin-top: 10px;
+    margin-right: 10px;
+}
+#twoleftleftfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#twoleftrightfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#tworightleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+}
+#tworightleft {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+}
+#tworightleftfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+	margin-top: 10px;
+    margin-right: 10px;
+}
+#tworightrightfont {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+	margin-top: 10px;
+    margin-right: 10px;
+}
+#oneleftleft:hover,
+#oneleftrighttop:hover,
+#oneleftrightdown:hover,
+#onerightleft:hover,
+#onerightrght:hover,
+#twoleftleft:hover,
+#twoleftright:hover,
+#tworightleft:hover,
+#tworightright:hover {
+    /* 這裡可以放你想要的動畫效果，例如： */
+    transform: scale(1.03);            /* 圖片微微放大 3% */
+    filter: brightness(1.1);           /* 圖片稍微變亮一點 */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* 增加立體感陰影 */
+    cursor: pointer;                   /* 滑鼠指標變成手指形狀 */
+}
+#oneleftleft,
+#oneleftrighttop,
+#oneleftrightdown,
+#onerightleft,
+#onerightrght,
+#twoleftleft,
+#twoleftright,
+#tworightleft,
+#tworightright {
+    transition: all 0.3s ease; /* 讓放大、變亮的效果在 0.3 秒內平滑發生 */
+}

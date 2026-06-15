@@ -133,13 +133,8 @@ h1 {
     text-decoration: underline;
     font-family: "NotoSansTC VariableFont wght";
 }
-#mainpic2 a:hover {
-
-
-
-
-
-
+#mainpic2:hover {
+    text-align: center;
 
 }
 #spotifylogo, #applemusiclogo, #kkboxlogo, #billboardlogo {
@@ -155,19 +150,9 @@ h1 {
     /* 選擇性：加入一點點陰影，讓放大時有浮起來的立體感。如果不需要可以刪除下一行 */
     box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
 }
-.table1 {
-    margin: auto;
-    text-align: center;
-    border-radius: 15px;
-    background-color: #000000;
-    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-    font-size: 20px;
-    text-shadow: 0px 0px #FFFFFF;
-    color: #FFFFFF;
-}
 .scroll-down-btn  {
-	margin: auto;
-	text-align: center;
+    margin-top: 825px;
+    text-align: right;
 
 }
 body {
@@ -183,6 +168,26 @@ body {
     text-align: center;
     color: #FB9597;
 }
+#KKBOX {
+    font-family: "NotoSansTC VariableFont wght";
+}
+#billboard {
+    font-family: "NotoSansTC VariableFont wght";
+}
+html {
+    scroll-behavior: smooth;
+}
+.table1 {
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #000000;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px #FFFFFF;
+    color: #FFFFFF;
+	
+}
 .table2   {
     background-color: #FA2B43;
 	margin: auto;
@@ -193,9 +198,7 @@ body {
     text-shadow: 0px 0px #FFFFFF;
     color: #FFFFFF;
 }
-#KKBOX {
-    font-family: "NotoSansTC VariableFont wght";
-}
+
 .table3{
 	background-color: #12d5f7;
 	margin: auto;
@@ -206,9 +209,7 @@ body {
     text-shadow: 0px 0px #FFFFFF;
     color: #FFFFFF;
 }
-#billboard {
-    font-family: "NotoSansTC VariableFont wght";
-}
+
 .table4{
 	background-color: #000000;
 	margin: auto;
@@ -219,6 +220,34 @@ body {
     text-shadow: 0px 0px #FFFFFF;
     color: #FFFFFF;
 }
-html {
-    scroll-behavior: smooth;
+/* 讓所有表格的格子變大、文字不再擠在一起 */
+td, th {
+    padding: 15px 25px !important;
+}
+
+/* 拿掉死板的雙線邊框，變成現代的乾淨排版 */
+table {
+    border-collapse: collapse !important;
+	}
+table td, table th {
+    text-align: left !important;
+}
+table td:first-child, table th:first-child {
+    text-align: center !important;
+}.buttomiii {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+	
+}
+#mainnn {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    text-decoration: none;
+}
+#mainnn a {
+    color: #FFFFFF;
+
+}
+#mainpic2 {
 }
