@@ -10,14 +10,10 @@ body {
     margin: 0;
     text-align: center;
 }
-
-/* 2. 固定定位框架 */
 .mainheader {
     position: fixed;
     z-index: 999;
 }
-
-/* 3. 導覽列主體：白色背景、高度 94px、寬度 100% 填滿 */
 #top {
     position: fixed;
     height: 94px;
@@ -26,29 +22,25 @@ body {
     top: 0;
     z-index: 999;
 }
-
-/* 4. 左側 Logo 圖片（Song Rise）*/
 #logo {
     position: relative;
     width: 151px;
     height: 54px;
     margin-top: 20px;
     margin-left: 10px;
-    background-image: url(logo.png); /* 畫面的 Song Rise 標誌 */
+    background-image: url(logo.png); 
     background-repeat: no-repeat;
-    float: left;                     /* 靠左對齊 */
+    float: left;                    
 }
 
-/* 5. 右側按鈕群組容器 */
+
 #buttom {
     position: relative;
-    float: right;                    /* 靠右對齊 */
+    float: right;                    
     margin-top: 25px;
     margin-right: 10px;
     font-family: "NotoSansTC VariableFont wght";
 }
-
-/* 6. 右側三個文字按鈕的初始外觀（白底、圓角、黑字） */
 #buttom a {
     display: inline-block;
     background-color: #FFFFFF; 
@@ -56,11 +48,9 @@ body {
     padding: 10px 20px;       
     margin: 5px;             
     text-decoration: none;    
-    border-radius: 10px;      /* 讓按鈕四角變成圓弧狀 */
-    transition: background-color 0.3s; /* 平滑過渡動畫 */
+    border-radius: 10px;      
+    transition: background-color 0.3s; 
 }
-
-/* 7. 滑鼠移上去（Hover）時的視覺效果（變成黑底白字） */
 #buttom a:hover {
     background-color: #000000;
     color: #FFFFFF;

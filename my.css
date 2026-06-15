@@ -34,12 +34,12 @@
 }
 #buttom a{
 	display: inline-block;
-	background-color: #FFFFFF; /* 方框的背景顏色，可自行更改 */
-	color: #000000;              /* 文字顏色，可自行更改 */
-	padding: 10px 20px;       /* 方框內文字的間距（上下 10px，左右 20px），可調整 */
-	margin: 5px;             /* 方框之間的間距，可調整 */
-	text-decoration: none;    /* 移除超連結的底線 */
-	border-radius: 10px;      /* 關鍵！這行程式碼讓四個角變成圓弧狀。數值越大越圓。 */
+	background-color: #FFFFFF; 
+	color: #000000;              
+	padding: 10px 20px;       
+	margin: 5px;             
+	text-decoration: none;   
+	border-radius: 10px;     
 	transition: background-color 0.3s;
 }
 #buttom a:hover {
@@ -140,14 +140,10 @@ h1 {
 #spotifylogo, #applemusiclogo, #kkboxlogo, #billboardlogo {
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-	border-radius: 15px;/* 讓滑鼠移上去時變成「手指」圖示，提示使用者這可以點擊 */
+	border-radius: 15px;
 }
-
-/* 2. 當滑鼠懸停（hover）在個別 Logo 上時，放大 1.1 倍 (可自由調整數值，如 1.05 或 1.15) */
 #spotifylogo:hover, #applemusiclogo:hover, #kkboxlogo:hover, #billboardlogo:hover {
     transform: scale(1.1);
-    
-    /* 選擇性：加入一點點陰影，讓放大時有浮起來的立體感。如果不需要可以刪除下一行 */
     box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
 }
 .scroll-down-btn  {
@@ -156,8 +152,8 @@ h1 {
 
 }
 body {
-	padding-top: 94px; /* 加上這一行，把被導覽列遮住的空間還給內容 */
-	margin: 0;         /* 順便清除瀏覽器預設的邊距 */
+	padding-top: 94px; 
+	margin: 0;         
 }
 #spotify {
     font-family: "NotoSansTC VariableFont wght";
@@ -220,12 +216,9 @@ html {
     text-shadow: 0px 0px #FFFFFF;
     color: #FFFFFF;
 }
-/* 讓所有表格的格子變大、文字不再擠在一起 */
 td, th {
     padding: 15px 25px !important;
 }
-
-/* 拿掉死板的雙線邊框，變成現代的乾淨排版 */
 table {
     border-collapse: collapse !important;
 	}
