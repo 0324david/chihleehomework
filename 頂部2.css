@@ -1,0 +1,16 @@
+@charset "utf-8";
+#logopic1 {
+	width: 183px;
+	height: 100px;
+	background-image: url(logo.png);
+	float: left;
+}
+#top {
+	float: none;
+	border-radius: 15px;
+	border-width: 0%;
+	background-color: #FF0004;
+}
+#mainbuttom {
+	float: right;
+}

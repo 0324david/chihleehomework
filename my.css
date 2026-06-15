@@ -1,0 +1,224 @@
+@charset "utf-8";
+@import url("NotoSansTC_VariableFont_wght/stylesheet.css");
+
+.mainheader {
+    position: fixed;
+    z-index: 999;
+}
+
+#top {
+	position: fixed;
+	height: 94px;
+	background-color: #FFFFFF;
+	width: 100%;
+	top: 0;
+	z-index:999;
+ }
+
+#logo {
+	position: relative;
+	width: 151px;
+	height: 54px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#buttom {
+	position: relative;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+	font-family: "NotoSansTC VariableFont wght";
+}
+#buttom a{
+	display: inline-block;
+	background-color: #FFFFFF; /* 方框的背景顏色，可自行更改 */
+	color: #000000;              /* 文字顏色，可自行更改 */
+	padding: 10px 20px;       /* 方框內文字的間距（上下 10px，左右 20px），可調整 */
+	margin: 5px;             /* 方框之間的間距，可調整 */
+	text-decoration: none;    /* 移除超連結的底線 */
+	border-radius: 10px;      /* 關鍵！這行程式碼讓四個角變成圓弧狀。數值越大越圓。 */
+	transition: background-color 0.3s;
+}
+#buttom a:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+#mainpic2 {
+	font-family: "NotoSansTC VariableFont wght";
+	width: 100%;
+	height: 850px;
+	background-image: url(mainpic2.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#mainpic2 .scroll-down-btn {
+}
+
+h1 {
+    font-family: "NotoSansTC VariableFont wght";
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}
+#spotifylogo {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 350px;
+    height: 130px;
+    display: inline-block;
+    margin: 40px;
+    background-image: url(spotifylogo.png);
+}
+#applemusiclogo {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 350px;
+    height: 130px;
+    display: inline-block;
+    margin: 40px;
+    background-image: url(applemusiclogo.png);
+}
+#kkboxlogo {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    width: 350px;
+    height: 130px;
+    clear: both;
+    display: inline-block;
+    margin: 40px;
+    background-image: url(kkboxlogo.png);
+}
+#billboardlogo {
+    font-family: "NotoSansTC VariableFont wght";
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 130px;
+    background-image: url(billboardlogo.png);
+    margin: 40px;
+    clear: none;
+}
+#logotop {
+    position: relative;
+    width: 100%;
+}
+#logodown {
+    position: relative;
+}
+.center {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+#mainfont {
+    position: relative;
+    width: 900px;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    color: #000000;
+}
+#footer {
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "NotoSansTC VariableFont wght";
+}
+#mainpic2 a:hover {
+
+
+
+
+
+
+
+}
+#spotifylogo, #applemusiclogo, #kkboxlogo, #billboardlogo {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+	border-radius: 15px;/* 讓滑鼠移上去時變成「手指」圖示，提示使用者這可以點擊 */
+}
+
+/* 2. 當滑鼠懸停（hover）在個別 Logo 上時，放大 1.1 倍 (可自由調整數值，如 1.05 或 1.15) */
+#spotifylogo:hover, #applemusiclogo:hover, #kkboxlogo:hover, #billboardlogo:hover {
+    transform: scale(1.1);
+    
+    /* 選擇性：加入一點點陰影，讓放大時有浮起來的立體感。如果不需要可以刪除下一行 */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+}
+.table1 {
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #000000;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px #FFFFFF;
+    color: #FFFFFF;
+}
+.scroll-down-btn  {
+	margin: auto;
+	text-align: center;
+
+}
+body {
+	padding-top: 94px; /* 加上這一行，把被導覽列遮住的空間還給內容 */
+	margin: 0;         /* 順便清除瀏覽器預設的邊距 */
+}
+#spotify {
+    font-family: "NotoSansTC VariableFont wght";
+    text-align: center;
+}
+#applemusic {
+    font-family: "NotoSansTC VariableFont wght";
+    text-align: center;
+    color: #FB9597;
+}
+.table2   {
+    background-color: #FA2B43;
+	margin: auto;
+    text-align: center;
+    border-radius: 15px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px #FFFFFF;
+    color: #FFFFFF;
+}
+#KKBOX {
+    font-family: "NotoSansTC VariableFont wght";
+}
+.table3{
+	background-color: #12d5f7;
+	margin: auto;
+    text-align: center;
+    border-radius: 15px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px #FFFFFF;
+    color: #FFFFFF;
+}
+#billboard {
+    font-family: "NotoSansTC VariableFont wght";
+}
+.table4{
+	background-color: #000000;
+	margin: auto;
+    text-align: center;
+    border-radius: 15px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px #FFFFFF;
+    color: #FFFFFF;
+}
+html {
+    scroll-behavior: smooth;
+}
